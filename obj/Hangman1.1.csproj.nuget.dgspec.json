@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Menaid\\source\\repos\\Hangman1.1\\Hangman1.1.csproj": {}
+    "C:\\Users\\menai\\Source\\Repos\\Hangman1.1\\Hangman1.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Menaid\\source\\repos\\Hangman1.1\\Hangman1.1.csproj": {
+    "C:\\Users\\menai\\Source\\Repos\\Hangman1.1\\Hangman1.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Menaid\\source\\repos\\Hangman1.1\\Hangman1.1.csproj",
+        "projectUniqueName": "C:\\Users\\menai\\Source\\Repos\\Hangman1.1\\Hangman1.1.csproj",
         "projectName": "Hangman1.1",
-        "projectPath": "C:\\Users\\Menaid\\source\\repos\\Hangman1.1\\Hangman1.1.csproj",
-        "packagesPath": "C:\\Users\\Menaid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Menaid\\source\\repos\\Hangman1.1\\obj\\",
+        "projectPath": "C:\\Users\\menai\\Source\\Repos\\Hangman1.1\\Hangman1.1.csproj",
+        "packagesPath": "C:\\Users\\menai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\menai\\Source\\Repos\\Hangman1.1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Menaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\menai\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

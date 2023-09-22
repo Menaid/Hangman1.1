@@ -8,7 +8,10 @@ string[] ord = null;
 
 var liv = 20;
 var bokstav = "";
-bool game = true;
+var play = true;
+
+while (play)
+{
 
 while (ord == null)
 {
@@ -58,7 +61,7 @@ var input = Console.ReadLine();
                 {
                     Console.WriteLine(bokstav);
                     hasWon = true;
-                    game = true;
+                    
                 }
                 if (!guessWasCorrect)
                 {
@@ -71,7 +74,7 @@ var input = Console.ReadLine();
             {
                 Console.Clear();
                 hasWon = true;
-                game = true;
+                
             }
             else
             {
@@ -89,8 +92,9 @@ var input = Console.ReadLine();
             Console.WriteLine("Du har förlorat, ordet var " + word);
             Console.WriteLine("Du har hittils gissat " + currentGuess);
         }
-        game = false;
+        
         Console.WriteLine("Vill du spela en gång till?");
+        var igen = Console.ReadLine().ToLower();
     }
 
     else if (input == "2")
@@ -137,7 +141,7 @@ var input = Console.ReadLine();
                 {
                     Console.WriteLine(bokstav);
                     hasWon = true;
-                    game = true;
+                    
                 }
                 if (!guessWasCorrect)
                 {
@@ -150,7 +154,7 @@ var input = Console.ReadLine();
             {
                 Console.Clear();
                 hasWon = true;
-                game = true;
+                
             }
             else
             {
@@ -168,14 +172,19 @@ var input = Console.ReadLine();
             Console.WriteLine("Du har förlorat, ordet var " + word);
             Console.WriteLine("Du har hittils gissat " + currentGuess);
         }
-        game = false;
+        
         Console.WriteLine("Vill du spela en gång till?");
     }
     else
     {
         Console.WriteLine("Fel inmatning, välj antigen 1 eller 2.");
+        var igen = Console.ReadLine().ToLower();
+        
     }
-    game = false;
+    
+    play = true;
+}
+
 }
 
 //Gör en while runt om allt du redan har Och skapa en variabel som heter play eller något. 
